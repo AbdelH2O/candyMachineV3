@@ -10,7 +10,7 @@ import React from 'react';
 
 const Providers = ({ children }: { children: JSX.Element | JSX.Element[] }) => {
 
-    const [network, setNetwork] = useState(WalletAdapterNetwork.Devnet);
+    const [network, setNetwork] = useState(WalletAdapterNetwork.Mainnet);
 
     const endpoint = useMemo(() => clusterApiUrl(network), [network]);
 

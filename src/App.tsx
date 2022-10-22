@@ -1,17 +1,15 @@
-import React from 'react';
-import Home from './pages';
-import Providers from './Providers';
-import './App.css';
+import React from "react";
+import Home from "./pages";
+import Providers from "./Providers";
+import "./App.css";
+import "../src/styles/global.css";
 
 const App = () => {
-
   return (
     <Providers>
-      <div className="bg-neutral-900 h-screen w-screen flex justify-center items-center">
-        <Home />
-      </div>
+      <Home />
     </Providers>
   );
-}
+};
 
-export default App
+export default App;

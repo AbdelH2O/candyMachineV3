@@ -10,9 +10,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <>
             <Head>
                 <meta charSet="UTF-8" />
-                <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+                <link rel="icon" type="image/ico" href="/favicon.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <title>Candy Machine UI</title>
+                <title>PANTERS MINT</title>
             </Head>
             <Providers>
                 <div className="w-screen flex flex-row justify-center items-center">
